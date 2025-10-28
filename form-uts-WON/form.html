@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEAVER OF NIGHTMARE | UTS ALPRO</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- Hero Section Start -->
+    <div class="parallax intro" id="home">
+      <!-- Navbar Start -->
+      <div class="navbar">
+        <a href="#about" class="btn2">Tentang Kami</a>
+        <a href="index.php" class="btn2">Logout</a>
+        <audio src="a.mp3" controls autoplay loop></audio>
+      </div>
+      <!-- Navbar End -->
+
+      <div class="cta">
+        <div class="tittle">WEAVER OF NIGHTMARE</div>
+        <div class="container">
+          <p id="pesan">Tempat dimana hal-hal aneh akan menjadi nyata</p>
+        </div>
+        <a href="#form" class="btn">Ayo kirimkan mimpi buruk</a>
+      </div>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- Form Section Start -->
+    <div class="parallax content" id="form">
+      <h1 class="kami2">FORM PENDAFTARAN</h1>
+      <p class="kami">Silahkan masukan data diri orang yang ingin anda kirimkan mimpi buruk</p>
+
+      <div class="form2">
+        <form id="myForm">
+          <div class="input-group">
+            <label for="nama">Nama:</label><br />
+            <input type="text" id="nama" placeholder="Masukan Namanya" /><br />
+          </div>
+          <div class="input-group">
+            <label for="usia">Usia:</label><br />
+            <input type="number" id="usia" placeholder="Masukan Usianya" /><br />
+          </div>
+          <div class="input-group">
+            <label for="alamat">Alamat:</label><br />
+            <input type="text" id="alamat" placeholder="Masukan Alamatnya" /><br />
+          </div>
+          <div class="input-group">
+            <label for="tanggalLahir">Tanggal Lahir:</label><br />
+            <input type="date" id="tanggalLahir" /><br />
+          </div>
+          <div class="input-group">
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" placeholder="Masukan Emailnya" /><br />
+          </div>
+          <div class="input-group">
+            <label for="kodeMimpi">Kode Mimpi:</label><br />
+            <input type="password" id="kodeMimpi" placeholder="Masukan Kode Mimpi" /><br />
+          </div>
+          <div class="input-group">
+            <label
+              >Jenis Kelamin:
+              <select id="jenisKelamin">
+                <option>Perempuan</option>
+                <option>Laki-Laki</option>
+              </select> </label
+            ><br />
+          </div>
+          <label>Saya akan menerima segala konsekuensinya</label>
+          <input type="checkbox" id="validasi" /><br />
+          <input type="button" value="Kirim" class="btn3" onclick="tampilkanHasil()" />
+        </form>
+        <div id="hasil"></div>
+      </div>
+    </div>
+    <!-- Form Section End -->
+
+    <!-- About Section Start -->
+    <div class="parallax footer" id="about">
+      <h1 class="kami2">TENTANG KAMI<br /></h1>
+      <p class="kami">
+        Selamat Datang di <span>WEAVER OF NIGHTMARE</span>, sebuah website yang membantu anda untuk berbagi kengerian mimpi <br />
+        buruk yang selalu datang pada malam hari. Kami dapat mengirimkan mimpi buruk ke siapapun di penjuru dunia <br />
+        ini, semua dalam kendali anda.<br />
+        <br />Kami adalah mahasiswa <span>Pendidikan Matematika FKIP Universitas Sultan Ageng Tirtayasa</span> yang<br />
+        suka berimajinasi dan bereksplorasi. <br />
+        <br />Kami adalah 3 anak Ajaib yang memiliki kode ajaib:
+      </p>
+      <ul class="kami">
+        <li>Riskiah Sri Utami <span>2225230018</span></li>
+        <li>Umi Mayyadah <span>2225230119</span></li>
+        <li>Alya Ayu Syafitri <span>2225230096</span></li>
+      </ul>
+      <!-- About Section End -->
+
+      <!-- Footer Start -->
+    </div>
+    <div class="foter">
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#form">Form</a>
+        <a href="#about">Tentang Kami</a>
+      </div>
+      <div class="credit">
+        <p>
+          Created by <a href="https://instagram.com/riskiahsri?igshid=YTQwZjQ0NmI0oA==">Riskiah Sri Utami</a> | <a href="https://instagram.com/mayazfra?igshid=NGVhN2U2NjQ0Yg==">Umi Mayyadah</a> |
+          <a href="https://instagram.com/alyaayusafitri?igshid=OGQ5ZDc2ODk2ZA==">Alya Ayu Syafitri</a>. | &copy; 2023.
+        </p>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

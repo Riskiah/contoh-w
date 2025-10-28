@@ -1,0 +1,228 @@
+/* scroll smooth */
+html {
+  scroll-behavior: smooth;
+}
+
+/* clearing css */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* parallax */
+.parallax {
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+/* tombol di navbar */
+.btn2 {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: transparent;
+  color: #fff;
+  font-family: monospace;
+  font-size: 1.4rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn2:hover {
+  color: #73799b;
+}
+
+/* audio di navbar */
+audio {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* background hero section */
+.intro {
+  background-image: url("4.jpg");
+  width: 100%;
+}
+
+/* mencakup judul website, slogan di hero section, dan tombol cta */
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* judul website di hero section */
+.tittle {
+  font-size: 4em;
+  letter-spacing: 20px;
+  font-family: fantasy;
+  color: white;
+  align-items: center;
+}
+
+/* tombol cta di hero section */
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #443828;
+  color: #fff;
+  font-family: monospace;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btn:hover,
+.btn3:hover {
+  background-color: #5f4f3b;
+}
+
+/* background form section */
+.content {
+  background-image: url("1.jpg");
+}
+
+/* background about section */
+.footer {
+  background-image: url("2.jpg");
+}
+
+/* slogan start */
+.container {
+  width: 68.5%;
+  align-items: center;
+}
+
+#pesan {
+  color: white;
+  font-size: 1.05rem;
+  letter-spacing: 10px;
+  font-family: monospace;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(45), cursor 0.4s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* typing effect*/
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+/* slogan end*/
+
+/* form section start*/
+/* form tidak mencakup hasil*/
+#myForm {
+  color: #fff;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+/* kotak input form */
+form .input-group input {
+  width: 20%;
+  padding: 0.3rem;
+  font-size: 0.8rem;
+  background-color: #fff;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* tombol di form */
+.btn3 {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #443828;
+  color: #fff;
+  font-family: monospace;
+  font-size: 1rem;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/*hasil form */
+#hasil {
+  color: antiquewhite;
+  font-family: monospace;
+  font-size: 1rem;
+  letter-spacing: 5px;
+  right: 0;
+}
+
+/* judul form */
+.kami2 {
+  color: #fff;
+  font-family: monospace;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* p1 di bagian atas form*/
+.kami {
+  color: #fff;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+span {
+  color: #73799b;
+}
+
+/* div yang mencakup form & hasil */
+.form2 {
+  text-align: center;
+}
+/* form section end*/
+
+/* footer section start */
+.foter {
+  background-color: #73799b;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.foter .links {
+  margin-bottom: 1.4rem;
+}
+
+.foter .links a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+
+.foter .links a:hover,
+.foter .credit a:hover {
+  color: #443828;
+}
+/* footer section start */
